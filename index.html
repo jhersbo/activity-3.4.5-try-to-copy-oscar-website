@@ -15,20 +15,41 @@
         </div>
         <div class="section" id="dropdown">
             <!-- add styling to make it look good -->
-            <button class="dropdown-button">English</button>
-            <div class="dropdown-content">
-                <a href="#">Lang 1</a>
-                <a href="#">Lang 2</a>
-                <a href="#">Lang 3</a>
-            </div>
+            <label for="language">Select Language</label>
+            <select name="language" id="">
+                <option value="">
+                    <a href="#">Lang 1</a>
+                </option>
+                <option value="">
+                    <a href="#">Lang 1</a>
+                </option>
+                <option value="">
+                    <a href="#">Lang 1</a>
+                </option>
+                <option value="">
+                    <a href="#">Lang 1</a>
+                </option>
+                <option value="">
+                    <a href="#">Lang 1</a>
+                </option>
+            </select>
+                
         </div>
         <div class="section" id="login">
-            <button class="dropdown-button">Log in</button>
-            <div class="dropdown-button">
-                <a href="#">Option 1</a>
-                <a href="#">Option 2</a>
-                <a href="#">Option 3</a>
-            </div>
+            <label for="login">Login</label>
+            <select name="login" id="login">
+                <option value="">
+                    <a href="#">Option 1</a>
+                </option>
+                <option value="">
+                    <a href="#">Option 1</a>
+                </option>
+                <option value="">
+                    <a href="#">Option 1</a>
+                </option>
+            </select>
+                
+            
         </div>
     </section>
     <header>
@@ -105,7 +126,7 @@
             
             <img src="./assets/images/perscriptions.png" alt="Prescriptions">
 
-            <h2>$0 prescriptions</h2>
+            <h3>$0 prescriptions</h3>
 
             <p>We've cut the cost of many common prescriptions to $0 when prescribed through Oscar Virtual Urgent Care or Oscar Virtual Primary Care.<sup>3</sup></p>
 
@@ -116,7 +137,7 @@
             
             <img src="./assets/images/finding_a_doctor.png" alt="Doctor">
 
-            <h2>Finding a doctor is easy</h2>
+            <h3>Finding a doctor is easy</h3>
 
             <p>Get access to top-rated hospitals and doctors in your neighborhood. See a specialist when you need to, without having to get a referral.</p>
 
@@ -127,7 +148,7 @@
 
             <img src="./assets/images/paid_to_walk.png" alt="Walk">
 
-            <h2>Get Paid to Walk</h2>
+            <h3>Get Paid to Walk</h3>
 
             <p>The Oscar appp syncs with Google Fit or Apple Health, so you can earn $1 every day you hit your step goals--up to $100 a year.<sup>4</sup></p>
 
@@ -146,16 +167,50 @@
             <p><u>Note:</u>If you live in California, you can track and earn rewards for every day you hit your sleep goal.</p>
         </div>
     </main>
-    <section>
+    <section class="additonal-articles">
 
-    </section>
-    <div>
-        <!-- <form action="" method="get">
+        <h2>Enough with the jargon.</h2>
+        
+        <div class="more-articles" id="primary">
+            <img src="./assets/images/jargon_1.png" alt="Picture">
+            <h3>8 health insurance terms you should know</h3>
+            <p>Health insurance terms are confusing. That's why we've compiled a mini-glossary that you can use when shopping for a plan.</p>
+        </div>
 
-            <label for=""></label>
-            <input type="text" name="" id="">
+        <div class="more-articles">
+            <img src="./assets/images/jargon_2.png" alt="Picture">
+            <h3>Buying your own health insurance? Here's your 2021 Open Enrollment checklist.</h3>
+        </div>
 
-        </form> -->
+        <div class="more-articles">
+            <img src="./assets/images/jargon_3.png" alt="">
+            <h3>How to navigate health insurance options in the face of financial challenges during the COVID-19 pandemic.</h3>
+        </div>
+
+        <div class="more-articles">
+            <img src="./assets/images/jargon_4.png" alt="Picture">
+            <h3>Health Insurance 101: Here's everything you need to know about picking a plan.</h3>
+        </div>
+
+        <div class="main">
+            <p>Attention: This website is operated by Oscar and is not the Health Insurance Marketplace website at <a href="#">Healthcare.gov</a>. This website does not display all Qualified Health Plans available through <a href="#">Healthcare.gov</a>. To see all available Qualified Health Plan options, go to the Health Insurance Marketplace at <a href="#">Healthcare.gov</a>.</p>
+
+            <p>Also, you should visit the Health Insurance Marketplace at <a href="#">Healthcare.gov</a> if:</p>
+
+            <p id="list">1. You want to enroll members of your household in separate QHPs.</p>
+            <p id="list">2. You want to enroll members of your household in dental coverage.</p>
+        </div>
+ </section>
+    <div class="bottom-form">
+        <h2>Sign up for insider tips on how to get the best care and save on health insurance.</h2>
+        <form action="" method="get">
+
+            <label for="email">Email</label>
+            <input type="text" name="email" id="">
+
+            <button type="submit">submit</button>
+
+        </form>
     </div>
     <footer>
         <div></div>
