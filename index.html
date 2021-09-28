@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
     <title>Oscar Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 
 <body>
-    <section>
+    <section class="top">
         <div class="section">
             <h4>1-855-672-2782</h4>
         </div>
@@ -21,16 +26,16 @@
                     <a href="#">Lang 1</a>
                 </option>
                 <option value="">
-                    <a href="#">Lang 1</a>
+                    <a href="#">Lang 2</a>
                 </option>
                 <option value="">
-                    <a href="#">Lang 1</a>
+                    <a href="#">Lang 3</a>
                 </option>
                 <option value="">
-                    <a href="#">Lang 1</a>
+                    <a href="#">Lang 4</a>
                 </option>
                 <option value="">
-                    <a href="#">Lang 1</a>
+                    <a href="#">Lang 5</a>
                 </option>
             </select>
                 
@@ -42,10 +47,10 @@
                     <a href="#">Option 1</a>
                 </option>
                 <option value="">
-                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
                 </option>
                 <option value="">
-                    <a href="#">Option 1</a>
+                    <a href="#">Option 3</a>
                 </option>
             </select>
                 
@@ -53,9 +58,10 @@
         </div>
     </section>
     <header>
-        <div id="#">
+        <div id="oscar">
             <h2>OSCAR</h2>
-            <nav>
+            <i class="fa-solid fa-bars"></i>
+            <!-- <nav>
                 <ul class="nav">
                     <li>
                         <a href="#">Shop plans</a>
@@ -70,41 +76,39 @@
                         <a href="#">Find a doctor</a>
                     </li>
                 </ul>
-            </nav>
+            </nav> -->
         </div>
-        <div id="tag">
-            <h1>
-                Health insurance made for you.
-            </h1>
+        <div id="hero">
+
         </div>
     </header>
-    <form action="">
-        <h2>Let's find your personalized plan:</h2>
-        <div id="query-1">
-            <label for="coverage-date">Coverage starting</label>
-            <select name="coverage-date" id="coverage-date">
-                <option value="1917">1917</option>
-                <option value="3005">3005</option>
-            </select>
+    <form action="" id="plan">
+        <div id="form">
+                <h2>Let's find your personalized plan:</h2>
+            <div id="query-1">
+                <label for="coverage-date">Coverage starting</label>
+                <select name="coverage-date" id="coverage-date">
+                    <option value="1917">1917</option>
+                    <option value="3005">3005</option>
+                </select>
+            </div>
+            <div id="query-2">
+                <label for="coverage-for">Coverage for</label>
+                <select name="coverage-for" id="coverage-for">
+                    <option value="me">me</option>
+                    <option value="jo mama">jo mama</option>
+                </select>
+            </div>
+            <div id='query-3'>
+                <label for="zip">ZIP Code</label>
+                <input type="zip" name='zip' id='zip'>
+            </div>
+            <div id="query-4">
+                <label for="birthday">My birthdate</label>
+                <input type="date" name='birthday' id='birthday'>
+            </div>
         </div>
-        <div id="query-2">
-            <label for="coverage-for">Coverage for</label>
-            <select name="coverage-for" id="coverage-for">
-                <option value="me">me</option>
-                <option value="jo mama">jo mama</option>
-            </select>
-        </div>
-        <div id='query-3'>
-            <label for="zip">ZIP Code</label>
-            <input type="zip" name='zip' id='zip'>
-        </div>
-        <div id="query-4">
-            <label for="birthday">My birthdate</label>
-            <input type="date" name='birthday' id='birthday'>
-        </div>
-       
-
-        </form>
+    </form>
 
     <main>
         <div class="main" id="oscar-care">
@@ -167,7 +171,7 @@
             <p><u>Note:</u>If you live in California, you can track and earn rewards for every day you hit your sleep goal.</p>
         </div>
     </main>
-    <section class="additonal-articles">
+    <section class="additional">
 
         <h2>Enough with the jargon.</h2>
         
@@ -218,6 +222,6 @@
         <div></div>
         <div></div>
     </footer>
-
 </body>
+<script src="https://use.fontawesome.com/b50b9b46ee.js"></script>
 </html>
